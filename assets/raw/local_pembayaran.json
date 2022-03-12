@@ -1,0 +1,90 @@
+{
+  "walikelas": "admin",
+  "kelas": null,
+  "tagihan": [
+    {
+      "id": 1,
+      "nisn": "04422",
+      "namaColumn": "smt_gasal",
+      "jumlah": "0"
+    },
+    {
+      "id": 2,
+      "nisn": "04422",
+      "namaColumn": "spp",
+      "jumlah": "800000"
+    },
+    {
+      "id": 3,
+      "nisn": "04422",
+      "namaColumn": "pkl_1",
+      "jumlah": "50000"
+    },
+    {
+      "id": 4,
+      "nisn": "04422",
+      "namaColumn": "osis_genap",
+      "jumlah": "50000"
+    },
+    {
+      "id": 5,
+      "nisn": "04422",
+      "namaColumn": "pas_genap",
+      "jumlah": "100000"
+    },
+    {
+      "id": 6,
+      "nisn": "04422",
+      "namaColumn": "admin_bank",
+      "jumlah": "2000"
+    },
+    {
+      "id": 7,
+      "nisn": "04422",
+      "namaColumn": "jumlah",
+      "jumlah": "1002000"
+    },
+    {
+      "id": 253,
+      "nisn": "04422",
+      "namaColumn": "smt_gasal",
+      "jumlah": "0"
+    },
+    {
+      "id": 254,
+      "nisn": "04422",
+      "namaColumn": "spp",
+      "jumlah": "800000"
+    },
+    {
+      "id": 255,
+      "nisn": "04422",
+      "namaColumn": "pkl_1",
+      "jumlah": "50000"
+    },
+    {
+      "id": 256,
+      "nisn": "04422",
+      "namaColumn": "osis_genap",
+      "jumlah": "50000"
+    },
+    {
+      "id": 257,
+      "nisn": "04422",
+      "namaColumn": "pas_genap",
+      "jumlah": "100000"
+    },
+    {
+      "id": 258,
+      "nisn": "04422",
+      "namaColumn": "admin_bank",
+      "jumlah": "2000"
+    },
+    {
+      "id": 259,
+      "nisn": "04422",
+      "namaColumn": "jumlah",
+      "jumlah": "1002000"
+    }
+  ]
+}
