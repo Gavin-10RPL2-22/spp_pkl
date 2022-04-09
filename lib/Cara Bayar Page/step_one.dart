@@ -3,6 +3,8 @@ import 'package:im_stepper/stepper.dart';
 import 'package:steps/steps.dart';
 
 class Pertama extends StatefulWidget {
+  const Pertama({Key key}) : super(key: key);
+
   @override
   _PertamaState createState() => _PertamaState();
 }
@@ -21,10 +23,10 @@ class _PertamaState extends State<Pertama> {
       minimum: EdgeInsets.zero,
       child: Scaffold(
           appBar: AppBar(
-              iconTheme: IconThemeData(
+              iconTheme: const IconThemeData(
                 color: Colors.black, //change your color here
               ),
-              title: Text('Cara Melakukan Pembayaran',
+              title: const Text('Cara Melakukan Pembayaran',
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 20,

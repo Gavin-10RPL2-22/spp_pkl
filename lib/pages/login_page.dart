@@ -129,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
                                             AutovalidateMode.always,
                                         controller: _nisController,
                                         validator: (_) => hasValidNis
-                                            ? null
+                                            ? null 
                                             : nisErrorMessage,
                                         keyboardType: TextInputType.number,
                                         inputFormatters: <TextInputFormatter>[

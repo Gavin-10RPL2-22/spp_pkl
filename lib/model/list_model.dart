@@ -17,7 +17,7 @@ class ListModel {
 
   factory ListModel.fromJson(Map<String, dynamic> json) => ListModel(
         walikelas: json["walikelas"],
-        kelas: json["kelas"] == null ? "no data" : json["kelas"],
+        kelas: json["kelas"] ?? "no data",
         tagihan:
             List<Tagihan>.from(json["tagihan"].map((x) => Tagihan.fromJson(x))),
       );
