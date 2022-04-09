@@ -3,6 +3,8 @@ import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:steps/steps.dart';
 
 class Kedua extends StatefulWidget {
+  const Kedua({Key key}) : super(key: key);
+
   @override
   _KeduaState createState() => _KeduaState();
 }
@@ -15,10 +17,10 @@ class _KeduaState extends State<Kedua> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-            iconTheme: IconThemeData(
+            iconTheme: const IconThemeData(
               color: Colors.black, //change your color here
             ),
-            title: Text('Cara Melakukan Pembayaran',
+            title: const Text('Cara Melakukan Pembayaran',
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,

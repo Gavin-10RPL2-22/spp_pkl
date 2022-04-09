@@ -9,11 +9,11 @@ class LoginResponseModel {
 
   factory LoginResponseModel.fromJson(Map<String, dynamic> json) {
     return LoginResponseModel(
-      token: json["token"] != null ? json["token"] : "",
-      nama_siswa: json["nama_siswa"] != null ? json["nama_siswa"] : "",
-      user: json["user"] != null ? json["user"] : "",
-      jumlah: json["jumlah"] != null ? json["jumlah"] : "",
-      message: json["message"] != null ? json["message"] : "",
+      token: json["token"] ?? "",
+      nama_siswa: json["nama_siswa"] ?? "",
+      user: json["user"] ?? "",
+      jumlah: json["jumlah"] ?? "",
+      message: json["message"] ?? "",
     );
   }
 }
